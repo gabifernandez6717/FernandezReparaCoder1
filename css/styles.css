@@ -1,0 +1,153 @@
+
+/*----------RESET------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*--------HEADER----------*/
+header {
+background-color: black;
+height: 260px;
+
+} 
+.hero {
+    color:white;
+    background-color:rgb(48, 48, 48) ;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 50px;
+}
+
+.algunasReparaciones {
+    background-color: lightgray;
+    color: black;
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.algunasReparaciones p {
+    color: black;
+} 
+.algunasReparaciones ul{
+    width: 100%;
+    text-align: center;
+}
+.algunasReparaciones ul li {
+    margin: 10PX;
+
+}
+
+.redes {
+    background-color:lightgray ;
+    display: inline-block;
+}
+.redes p {
+    color: black;
+    font-size: 20px;
+}
+
+.imagenesRedes a img{
+    width: 150px;
+}
+
+#paginaDeInicio {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 40px;
+    
+}
+header nav ul li a  {
+    padding: 5px 15px 5px 15px;
+    color: white;
+    background-color:rgb(48, 48, 48) ;
+    text-decoration: none;
+    
+    
+}
+
+/*---------MAIN---------*/
+
+#contactoPrecios {
+    
+    color: black;
+}
+.precios {
+    color: white;
+    
+}
+
+
+.tablaPrecios {
+    margin: 40px 40px 40px 0px;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+.tablaPrecios tr td{
+    
+    border: 1px solid white;
+    
+}
+td {
+    padding: 10px;
+}
+.tablaPrecios tr th {
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+}
+main section p {
+    color: white;
+    text-align: center;
+}
+main section img {
+    margin: 10px;
+}
+main {
+    background-attachment: fixed;
+    text-align: center;
+    background-image: url(../img/capacitor.jpg);
+    background-color: rgb(19, 19, 19);
+    height: 2700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+h2 {
+    color: black;
+    background-color: lightgray;
+    }
+
+/*---------FOOTER---------*/
+footer {
+    
+    background-color: rgb(48, 48, 48);
+    
+}
+footer section h2 {
+    color: black;
+    font-size: 60px;
+    text-align: center;
+}
+footer section a img {
+    height: 10px;
+    
+    
+}
