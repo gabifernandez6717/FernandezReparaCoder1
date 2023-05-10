@@ -3,22 +3,23 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /*--------HEADER----------*/
 header {
-background-color: white;
-height: 260px;
+background-color:black;
+
 
 } 
 .hero {
-    color:white;
-    background-color:rgb(48, 48, 48) ;
+    color:black;
+    background-color:#ffffff85 ;
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     text-align: center;
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .algunasReparaciones {
@@ -57,9 +58,14 @@ height: 260px;
     color: black;
     text-align: center;
     font-size: 30px;
-    
+    border: 3px solid black;
 }
 
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 header nav ul {
     list-style: none;
@@ -76,6 +82,7 @@ header nav ul li a  {
     color: white;
     background-color:rgb(48, 48, 48) ;
     text-decoration: none;
+    border-radius: 20px;
     
     
 }
@@ -111,7 +118,7 @@ td {
     background-color: white;
     border: 1px solid white;
 }
-main section p {
+main div p {
     color: white;
     text-align: center;
 }
@@ -123,7 +130,6 @@ main {
     text-align: center;
     background-image: url(../img/capacitor.jpg);
     background-color: rgb(19, 19, 19);
-    height: 2700px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -132,7 +138,7 @@ main {
 
 h2 {
     color: black;
-    background-color: lightgray;
+    background-color: #ffffff85;
     }
 
 /*---------FOOTER---------*/
@@ -141,13 +147,11 @@ footer {
     background-color: rgb(48, 48, 48);
     
 }
-footer section h2 {
+footer div h2 {
     color: black;
     font-size: 60px;
     text-align: center;
 }
-footer section a img {
-    height: 10px;
-    
-    
-}
+
+
+
