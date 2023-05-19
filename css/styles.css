@@ -44,6 +44,7 @@ background-color:black;
 .redes {
     background-color:lightgray ;
     display: inline-block;
+    margin-top: auto;
 }
 .redes p {
     color: black;
@@ -52,13 +53,17 @@ background-color:black;
 
 .imagenesRedes a img{
     width: 150px;
+    border-radius: 15px;
 }
-
+.imgFacebook{
+    border: 3px solid black;
+}
 #paginaDeInicio {
     color: black;
     text-align: center;
     font-size: 30px;
     border: 3px solid black;
+    margin: 0;
 }
 
 header nav {
@@ -66,7 +71,17 @@ header nav {
     flex-wrap: wrap;
     justify-content: center;
 }
-
+/*-boostrap -*/
+header nav div a img {
+    width: 100px;
+    height: 60px;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+header nav {
+    background-color: #ffffffa1;
+}
+/*-boostrap fin-*/
 header nav ul {
     list-style: none;
     text-align: center;
@@ -107,7 +122,7 @@ header nav ul li a  {
 }
 .tablaPrecios tr td{
     
-    border: 1px solid white;
+    border: 1px solid black;
     
 }
 td {
@@ -116,7 +131,7 @@ td {
 .tablaPrecios tr th {
     color: black;
     background-color: white;
-    border: 1px solid white;
+    border: 3px solid black;
 }
 main div p {
     color: white;
@@ -128,30 +143,233 @@ main section img {
 main {
     background-attachment: fixed;
     text-align: center;
-    background-image: url(../img/capacitor.jpg);
-    background-color: rgb(19, 19, 19);
+    /*-background-image: url(../img/capacitor.jpg);-*/
+    background-color: #a1a1a1;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 h2 {
     color: black;
-    background-color: #ffffff85;
+    background-color: #ffffff;
+    border: 3px solid black;
     }
 
 /*---------FOOTER---------*/
 footer {
     
-    background-color: rgb(48, 48, 48);
-    
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    margin-top: auto;
 }
 footer div h2 {
     color: black;
     font-size: 60px;
     text-align: center;
+    margin: 0;
+}
+/*-grid-*/
+.imgsIndex {
+    display: grid;
+    grid-template-columns: repeat (1fr 1fr 1fr);
+    grid-template-rows: auto ;
+    grid-template-areas: 
+    "samsung auriculares lavarropas"
+    "xiaomi focos lintern"
+    ;
+}
+.focos {
+    grid-area: focos;
+}
+.lavarropas {
+    grid-area: lavarropas;
+}
+.auriculares {
+    grid-area: auriculares;
+}
+.xiaomi {
+    grid-area: xiaomi;
+}
+.samsung {
+    grid-area: samsung;
+}
+.lintern {
+    grid-area: lintern;
+}
+.lintern img {
+    width: 280px;
+    height: 319px;
+
+}
+/*---MEDIA QUERY---*/
+@media screen and (max-width: 1349px){
+    .imgsIndex {
+        display: grid;
+        grid-template-columns: repeat (1fr 1fr);
+        grid-template-rows: auto ;
+        grid-template-areas: 
+        "samsung  lavarropas"
+        "xiaomi focos "
+        "auriculares lintern"
+        ;
+    }
+    .focos {
+        grid-area: focos;
+    }
+    .lavarropas {
+        grid-area: lavarropas;
+    }
+    .auriculares {
+        grid-area: auriculares;
+    }
+    .auriculares img {
+        
+        width: 280px;
+        height: 319px;
+    }
+    .xiaomi {
+        grid-area: xiaomi;
+    }
+    .samsung {
+        grid-area: samsung;
+    }
+    .lintern {
+        grid-area: lintern;
+    }
+    .lintern img {
+        width: 280px;
+        height: 319px;
+    
+}
+@media screen and (max-width: 1235px){
+    .imgsIndex {
+        display: grid;
+        grid-template-columns: repeat (1fr 1fr);
+        grid-template-rows: auto ;
+        grid-template-areas: 
+        "samsung  lavarropas"
+        "xiaomi focos "
+        "auriculares lintern"
+        ;
+    }
+    .focos {
+        grid-area: focos;
+    }
+    .lavarropas {
+        grid-area: lavarropas;
+    }
+    .auriculares {
+        grid-area: auriculares;
+    }
+    .auriculares img {
+        
+        width: 280px;
+        height: 319px;
+    }
+    .xiaomi {
+        grid-area: xiaomi;
+    }
+    .xiaomi h2 {
+        font-size: 1.9rem;
+    }
+    .samsung {
+        grid-area: samsung;
+    }
+    .lintern {
+        grid-area: lintern;
+    }
+    .lintern img {
+        width: 280px;
+        height: 319px;
+    
+}
 }
 
-
-
+@media screen and (max-width: 903px){
+    .imgsIndex {
+        display: grid;
+        grid-template-columns: repeat (1fr);
+        grid-template-rows: auto ;
+        grid-template-areas: 
+        "samsung "
+        "lavarropas"
+        "xiaomi"
+        "focos "
+        "auriculares"
+        "lintern"
+        ;
+    }
+    .focos {
+        grid-area: focos;
+    }
+    .focos img {
+        
+        width: 310px;
+        height:410px;
+    }
+    
+    .lavarropas {
+        grid-area: lavarropas;
+    }
+    .lavarropas img{
+        
+        width: 310px;
+        height:410px;
+    }
+    .auriculares {
+        grid-area: auriculares;
+    }
+    .auriculares img {
+        width: 310px;
+        height:410px;
+    }
+    
+    .xiaomi {
+        grid-area: xiaomi;
+    }
+    .xiaomi h2 {
+        font-size: 1.9rem;
+        border: 3px solid black;
+    }
+    .xiaomi img{
+        width: 310px;
+        height:410px;
+    }
+    .samsung {
+        grid-area: samsung;
+    }
+    .samsung img{
+        width: 310px;
+        height:410px;
+    }
+    .lintern {
+        grid-area: lintern;
+    }
+    .lintern img {
+        width: 290px;
+        height:390px;
+    }
+    footer div h2 {
+        font-size: calc(1.3rem);
+        background-color: black;
+        color: white;
+        border: 3px solid white;
+    }
+    .mapa {
+        width: 280px;
+        height: 320px;
+        text-align: center;
+    }
+    
+main div img {
+    width: 280px;
+    height: 210px;
+    margin: 0;
+}
+}}
