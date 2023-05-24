@@ -1,0 +1,173 @@
+//*MEDIA QUERY
+@media screen and (max-width: 1349px){
+    main{
+
+    .imgsIndex {
+        display: grid;
+        grid-template-columns: repeat (1fr 1fr);
+        grid-template-rows: auto ;
+        grid-template-areas: 
+        "samsung  lavarropas"
+        "xiaomi focos "
+        "auriculares lintern"
+        ;
+    
+    .focos {
+        grid-area: focos;
+    }
+    .lavarropas {
+        grid-area: lavarropas;
+    }
+    .auriculares {
+        grid-area: auriculares;
+        img{
+        width: 280px;
+        height: 319px;
+            }
+        }
+    
+    .xiaomi {
+        grid-area: xiaomi;
+    }
+    .samsung {
+        grid-area: samsung;
+    }
+    .lintern {
+        grid-area: lintern;
+        img{
+        width: 280px;
+        height: 319px;
+            }
+        }
+}}}
+@media screen and (max-width: 1235px){
+    main{
+
+    .imgsIndex {
+        display: grid;
+        grid-template-columns: repeat (1fr 1fr);
+        grid-template-rows: auto ;
+        grid-template-areas: 
+        "samsung  lavarropas"
+        "xiaomi focos "
+        "auriculares lintern"
+        ;
+    
+    .focos {
+        grid-area: focos;
+    }
+    .lavarropas {
+        grid-area: lavarropas;
+    }
+    .auriculares {
+        grid-area: auriculares;
+        img{
+        width: 280px;
+        height: 319px;
+        }
+    }
+    .xiaomi {
+        grid-area: xiaomi;
+        h2 {
+        font-size: 1.9rem;
+    }
+    }
+    .samsung {
+        grid-area: samsung;
+    }
+    .lintern {
+        grid-area: lintern;
+        img {
+        width: 280px;
+        height: 319px;
+    }
+}
+}
+}}
+@media screen and (max-width: 903px){
+    main{
+
+    .imgsIndex {
+        display: grid;
+        grid-template-columns: repeat (1fr);
+        grid-template-rows: auto ;
+        grid-template-areas: 
+        "samsung "
+        "lavarropas"
+        "xiaomi"
+        "focos "
+        "auriculares"
+        "lintern";
+    
+    .focos {
+        grid-area: focos;
+        img {
+        width: 310px;
+        height:410px;}
+    }
+    .lavarropas {
+        grid-area: lavarropas;
+        img{
+            width: 310px;
+            height:410px;
+        }
+    }
+    .auriculares {
+        grid-area: auriculares;
+        img {
+        width: 310px;
+        height:410px;}
+    }
+    .xiaomi {
+        grid-area: xiaomi;
+        h2 {
+        font-size: 1.9rem;
+        border: 3px solid black;}
+        img{
+        width: 310px;
+        height:410px;}
+    }
+    .samsung {
+        grid-area: samsung;
+        img{
+        width: 310px;
+        height:410px;}
+    }
+    .lintern {
+        grid-area: lintern;
+        img {
+        width: 290px;
+        height:390px;}
+    }
+    footer{
+        div{
+            h2{
+            font-size: calc(1.3rem);
+            background-color: black;
+            color: white;
+            border: 3px solid white;
+            }
+        }
+    }
+    .mapa {
+        width: 280px;
+        height: 320px;
+        text-align: center;
+    }
+    main{
+        div{
+            img{
+                width: 280px;
+                height: 210px;
+                margin: 0;
+            }
+        }
+    }
+    .imagenesRedes{
+        a{
+            img{
+                height: 150px;
+            }
+        }
+    }
+    }}}

@@ -1,0 +1,164 @@
+main{
+    background-attachment: fixed;
+    text-align: center;
+    /*-background-image: url(../img/capacitor.jpg);-*/
+    background-color: #a1a1a1;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    div{
+        p{
+            color: white;
+            text-align: center;
+        }
+        iframe {
+        box-shadow: 5px -3px 13px;
+        border: 2px solid black;
+        }
+        .diploma{
+            box-shadow: 5px -3px 13px;
+            border: 2px solid black;
+        }
+
+    }
+    section{
+        img{
+        margin: 10px;
+        }
+    }
+    .algunasReparaciones{
+        background-color: lightgray;
+        color: black;
+        margin: 20px;
+        font-size: 20px;
+        text-align: center;
+        box-shadow: 5px -3px 13px;
+        border: 2px solid black;
+        ul{
+            width: 100%;
+            text-align: center;
+            li{
+                margin: 10PX;
+            }
+        }
+        p{
+            color: black;
+            #contactoPrecios{
+                color: black;}
+        }
+    }
+    .redes{
+        background-color:lightgray ;
+        display: inline-block;
+        margin-top: auto;
+        box-shadow: 5px -3px 13px;
+        border: 2px solid black;
+        p{
+            color: black;
+            font-size: 20px;
+        }
+    }
+    .imagenesRedes{
+        a{
+            .imgFacebook{
+                border: 3px solid black;
+                width: 150px;
+                border-radius: 15px;
+            }
+            img{
+                width: 150px;
+                border-radius: 15px;
+                transition-duration: 0.5s;
+                img:hover{
+                    width: 180px;
+                    height: 180px;
+                }
+            }
+        }
+    }
+    #contactoPrecios{
+        color: black;
+    }
+    .redes{
+    background-color:lightgray ;
+    display: inline-block;
+    margin-top: auto;
+    box-shadow: 5px -3px 13px;
+    border: 2px solid black;
+        p{
+            color: black;
+            font-size: 20px;
+        }
+    }
+    .precios{
+    color: white;
+    }
+    .tablaPrecios{
+        margin: 40px 40px 40px 0px;
+        text-align: center;
+        width: 100%;
+        color: white;
+        tr{
+            td{
+                border: 1px solid black;
+            }
+            th{
+                color: black;
+                background-color: white;
+                border: 3px solid black;}
+        }
+    }
+    .imgsIndex{
+        display: grid;
+        grid-template-columns: repeat (1fr 1fr 1fr);
+        grid-template-rows: auto ;
+        grid-template-areas: 
+        "samsung auriculares lavarropas"
+        "xiaomi focos lintern"
+        ;
+        .focos{
+            grid-area: focos;
+            img{
+                box-shadow: 5px -3px 13px;
+                border: 2px solid black;
+            }
+        }
+        .lavarropas{
+            grid-area: lavarropas;
+            img{
+                box-shadow: 5px -3px 13px;
+                border: 2px solid black;
+            }
+        }
+        .auriculares{
+            grid-area: auriculares;
+            img{
+                box-shadow: 5px -3px 13px;
+                border: 2px solid black;}
+        }
+        .xiaomi{
+            grid-area: xiaomi;
+            img{
+                box-shadow: 5px -3px 13px;
+                border: 2px solid black;}
+        }
+        .samsung{
+            grid-area: samsung;
+            img{
+                box-shadow: 5px -3px 13px;
+                border: 2px solid black;}
+        }
+        .lintern{
+            grid-area: lintern;
+            img{
+                width: 280px;
+                height: 322px;
+                box-shadow: 5px -3px 13px;
+                border: 2px solid black;}
+        }
+    }
+}

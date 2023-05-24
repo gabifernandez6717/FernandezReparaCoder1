@@ -11,7 +11,7 @@ header {
 background-color:black;
 
 
-} 
+}
 .hero {
     color:black;
     background-color:#ffffff85 ;
@@ -20,7 +20,7 @@ background-color:black;
     font-weight: 100;
     text-align: center;
     font-size: 35px;
-}
+} 
 
 .algunasReparaciones {
     background-color: lightgray;
@@ -28,6 +28,8 @@ background-color:black;
     margin: 20px;
     font-size: 20px;
     text-align: center;
+    box-shadow: 5px -3px 13px;
+    border: 2px solid black;
 }
 .algunasReparaciones p {
     color: black;
@@ -45,6 +47,8 @@ background-color:black;
     background-color:lightgray ;
     display: inline-block;
     margin-top: auto;
+    box-shadow: 5px -3px 13px;
+    border: 2px solid black;
 }
 .redes p {
     color: black;
@@ -54,6 +58,12 @@ background-color:black;
 .imagenesRedes a img{
     width: 150px;
     border-radius: 15px;
+    transition-duration: 0.5s;
+}
+.imagenesRedes a img:hover {
+    width: 180px;
+    height: 180px;
+
 }
 .imgFacebook{
     border: 3px solid black;
@@ -72,36 +82,21 @@ header nav {
     justify-content: center;
 }
 /*-boostrap -*/
+
 header nav div a img {
     width: 100px;
     height: 60px;
     border-radius: 20px;
     border: 3px solid black;
+    box-shadow: 2px 2px 10px;
+    transition-duration: 0.5s;
+}
+header nav div a img:hover {
+    width: 110px;
 }
 header nav {
     background-color: #ffffffa1;
 }
-/*-boostrap fin-*/
-header nav ul {
-    list-style: none;
-    text-align: center;
-}
-
-header nav ul li {
-    display: inline-block;
-    margin: 40px;
-    
-}
-header nav ul li a  {
-    padding: 5px 15px 5px 15px;
-    color: white;
-    background-color:rgb(48, 48, 48) ;
-    text-decoration: none;
-    border-radius: 20px;
-    
-    
-}
-
 /*---------MAIN---------*/
 
 #contactoPrecios {
@@ -137,13 +132,23 @@ main div p {
     color: white;
     text-align: center;
 }
+.diploma {
+    
+    box-shadow: 5px -3px 13px;
+    border: 2px solid black;
+}
+main div iframe {
+    
+    box-shadow: 5px -3px 13px;
+    border: 2px solid black;
+}
 main section img {
     margin: 10px;
 }
 main {
     background-attachment: fixed;
     text-align: center;
-    /*-background-image: url(../img/capacitor.jpg);-*/
+    
     background-color: #a1a1a1;
     width: 100%;
     background-repeat: no-repeat;
@@ -187,25 +192,46 @@ footer div h2 {
 .focos {
     grid-area: focos;
 }
+.focos img {
+    box-shadow: 5px -3px 13px;
+    border: 2px solid black;
+}
 .lavarropas {
     grid-area: lavarropas;
+}
+.lavarropas img {
+    box-shadow: 5px -3px 13px;
+    border: 2px solid black;
 }
 .auriculares {
     grid-area: auriculares;
 }
+.auriculares img {
+    box-shadow: 5px -3px 13px;
+    border: 2px solid black;
+}
 .xiaomi {
     grid-area: xiaomi;
 }
+.xiaomi img {
+    box-shadow: 5px -3px 13px;
+    border: 2px solid black;
+}
 .samsung {
     grid-area: samsung;
+}
+.samsung img {
+    box-shadow: 5px -3px 13px;
+    border: 2px solid black;
 }
 .lintern {
     grid-area: lintern;
 }
 .lintern img {
     width: 280px;
-    height: 319px;
-
+    height: 322px;
+    box-shadow: 5px -3px 13px;
+    border: 2px solid black;
 }
 /*---MEDIA QUERY---*/
 @media screen and (max-width: 1349px){
@@ -271,6 +297,7 @@ footer div h2 {
         
         width: 280px;
         height: 319px;
+    
     }
     .xiaomi {
         grid-area: xiaomi;
@@ -371,5 +398,8 @@ main div img {
     width: 280px;
     height: 210px;
     margin: 0;
+}
+.imagenesRedes a img {
+    height: 150px;
 }
 }}
