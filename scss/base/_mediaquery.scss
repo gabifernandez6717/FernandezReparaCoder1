@@ -149,11 +149,15 @@
             }
         }
     }
-    .mapa {
+    div{
+        div{
+            iframe {
         width: 280px;
         height: 320px;
         text-align: center;
-    }
+                }
+            }
+        }
     main{
         div{
             img{
