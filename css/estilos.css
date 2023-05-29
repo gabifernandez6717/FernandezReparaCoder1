@@ -92,14 +92,18 @@ main {
   main .imagenesRedes a .imgFacebook {
     border: 3px solid black;
     width: 150px;
-    border-radius: 15px; }
+    border-radius: 15px;
+    transition-duration: 0.5s; }
+  main .imagenesRedes a .imgFacebook:hover {
+    width: 175px;
+    height: 175px; }
   main .imagenesRedes a img {
     width: 150px;
     border-radius: 15px;
     transition-duration: 0.5s; }
-    main .imagenesRedes a img img:hover {
-      width: 180px;
-      height: 180px; }
+  main .imagenesRedes a img:hover {
+    width: 180px;
+    height: 180px; }
   main #contactoPrecios {
     color: black; }
   main .redes {
@@ -167,9 +171,11 @@ footer {
   color: white;
   border: 3px solid white;
   margin-top: auto; }
-  footer div h2 {
+  footer div h3 {
     color: black;
-    font-size: 60px;
+    background-color: #ffffff;
+    border: 3px solid black;
+    font-size: calc(3.3rem);
     text-align: center;
     margin: 0; }
 
@@ -196,7 +202,14 @@ footer {
       grid-area: lintern; }
       main .imgsIndex .lintern img {
         width: 280px;
-        height: 319px; } }
+        height: 319px; }
+  footer div h3 {
+    color: black;
+    background-color: #ffffff;
+    border: 3px solid black;
+    font-size: calc(3.3rem);
+    text-align: center;
+    margin: 0; } }
 
 @media screen and (max-width: 1235px) {
   main .imgsIndex {
@@ -223,7 +236,14 @@ footer {
       grid-area: lintern; }
       main .imgsIndex .lintern img {
         width: 280px;
-        height: 319px; } }
+        height: 319px; }
+  footer div h3 {
+    color: black;
+    background-color: #ffffff;
+    border: 3px solid black;
+    font-size: calc(3.3rem);
+    text-align: center;
+    margin: 0; } }
 
 @media screen and (max-width: 903px) {
   main .imgsIndex {
@@ -231,51 +251,55 @@ footer {
     grid-template-columns: repeat 1fr;
     grid-template-rows: auto;
     grid-template-areas: "samsung " "lavarropas" "xiaomi" "focos " "auriculares" "lintern"; }
-    main .imgsIndex .focos {
-      grid-area: focos; }
-      main .imgsIndex .focos img {
-        width: 310px;
-        height: 410px; }
-    main .imgsIndex .lavarropas {
-      grid-area: lavarropas; }
-      main .imgsIndex .lavarropas img {
-        width: 310px;
-        height: 410px; }
-    main .imgsIndex .auriculares {
-      grid-area: auriculares; }
-      main .imgsIndex .auriculares img {
-        width: 310px;
-        height: 410px; }
-    main .imgsIndex .xiaomi {
-      grid-area: xiaomi; }
-      main .imgsIndex .xiaomi h2 {
-        font-size: 1.9rem;
-        border: 3px solid black; }
-      main .imgsIndex .xiaomi img {
-        width: 310px;
-        height: 410px; }
-    main .imgsIndex .samsung {
-      grid-area: samsung; }
-      main .imgsIndex .samsung img {
-        width: 310px;
-        height: 410px; }
-    main .imgsIndex .lintern {
-      grid-area: lintern; }
-      main .imgsIndex .lintern img {
-        width: 290px;
-        height: 390px; }
-    main .imgsIndex footer div h2 {
-      font-size: calc(1.3rem);
-      background-color: black;
-      color: white;
-      border: 3px solid white; }
-    main .imgsIndex div div iframe {
-      width: 280px;
-      height: 320px;
-      text-align: center; }
-    main .imgsIndex main div img {
-      width: 280px;
-      height: 210px;
-      margin: 0; }
-    main .imgsIndex .imagenesRedes a img {
-      height: 150px; } }
+  main .focos {
+    grid-area: focos; }
+    main .focos img {
+      width: 310px;
+      height: 410px; }
+  main .lavarropas {
+    grid-area: lavarropas; }
+    main .lavarropas img {
+      width: 310px;
+      height: 410px; }
+  main .auriculares {
+    grid-area: auriculares; }
+    main .auriculares img {
+      width: 310px;
+      height: 410px; }
+  main .xiaomi {
+    grid-area: xiaomi; }
+    main .xiaomi h2 {
+      font-size: 1.9rem;
+      border: 3px solid black; }
+    main .xiaomi img {
+      width: 310px;
+      height: 410px; }
+  main .samsung {
+    grid-area: samsung; }
+    main .samsung img {
+      width: 310px;
+      height: 410px; }
+  main .lintern {
+    grid-area: lintern; }
+    main .lintern img {
+      width: 310px;
+      height: 410px; }
+  main div div iframe {
+    width: 280px;
+    height: 320px;
+    text-align: center; }
+  main main div img {
+    width: 280px;
+    height: 210px;
+    margin: 0; }
+  main .imagenesRedes a img {
+    height: 150px; }
+  div img {
+    width: 280px;
+    height: 210px;
+    margin: 0; }
+  footer div h3 {
+    font-size: calc(1.3rem);
+    background-color: black;
+    color: #ffffff;
+    border: 3px solid #ffffff; } }

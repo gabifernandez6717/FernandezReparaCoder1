@@ -24,7 +24,6 @@ main{
             box-shadow: 5px -3px 13px;
             border: 2px solid black;
         }
-
     }
     section{
         img{
@@ -69,15 +68,20 @@ main{
                 border: 3px solid black;
                 width: 150px;
                 border-radius: 15px;
+                transition-duration: 0.5s;
+            }
+            .imgFacebook:hover{
+                width: 175px;
+                height: 175px;
             }
             img{
                 width: 150px;
                 border-radius: 15px;
                 transition-duration: 0.5s;
-                img:hover{
-                    width: 180px;
-                    height: 180px;
-                }
+            }
+            img:hover{
+                width: 180px;
+                height: 180px;
             }
         }
     }

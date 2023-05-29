@@ -39,7 +39,19 @@
         height: 319px;
             }
         }
-}}}
+}}
+footer{
+    div{
+        h3{
+            color: black;
+            background-color: #ffffff ;
+            border: 3px solid black;
+            font-size: calc(3.3rem);
+            text-align: center;
+            margin: 0;
+        }
+    }
+}}
 @media screen and (max-width: 1235px){
     main{
 
@@ -83,6 +95,18 @@
     }
 }
 }
+}
+footer{
+    div{
+        h3{
+            color: black;
+            background-color: #ffffff ;
+            border: 3px solid black;
+            font-size: calc(3.3rem);
+            text-align: center;
+            margin: 0;
+        }
+    }
 }}
 @media screen and (max-width: 903px){
     main{
@@ -98,7 +122,7 @@
         "focos "
         "auriculares"
         "lintern";
-    
+    }
     .focos {
         grid-area: focos;
         img {
@@ -116,7 +140,8 @@
         grid-area: auriculares;
         img {
         width: 310px;
-        height:410px;}
+        height: 410px;
+        }
     }
     .xiaomi {
         grid-area: xiaomi;
@@ -136,17 +161,8 @@
     .lintern {
         grid-area: lintern;
         img {
-        width: 290px;
-        height:390px;}
-    }
-    footer{
-        div{
-            h2{
-            font-size: calc(1.3rem);
-            background-color: black;
-            color: white;
-            border: 3px solid white;
-            }
+        width: 310px;
+        height: 410px;
         }
     }
     div{
@@ -173,5 +189,21 @@
                 height: 150px;
             }
         }
+    }}
+    div{
+            img{
+                width: 280px;
+                height: 210px;
+                margin: 0;
+            }
     }
-    }}}
+    footer{
+        div{
+            h3{
+            font-size: calc(1.3rem);
+            background-color: black;
+            color: #ffffff;
+            border: 3px solid #ffffff;
+            }
+        }
+    }}

@@ -4,9 +4,11 @@ footer{
     border: 3px solid white;
     margin-top: auto;
     div {
-        h2 {
+        h3 {
             color: black;
-            font-size: 60px;
+            background-color: #ffffff ;
+            border: 3px solid black;
+            font-size: calc(3.3rem);
             text-align: center;
             margin: 0;
         }
