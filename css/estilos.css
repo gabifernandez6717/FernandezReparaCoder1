@@ -67,7 +67,9 @@ main {
     padding: 20px;
     margin: 0px auto 40px auto;
     background-color: #cccaca57;
-    border-radius: 5px; }
+    border-radius: 5px;
+    box-shadow: 5px -3px 13px;
+    border: 2px solid black; }
     main section .mb-3 .form-label {
       color: white; }
     main section .mb-3 input {
