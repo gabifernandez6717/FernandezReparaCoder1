@@ -234,7 +234,9 @@ main {
         border: 2px solid black; }
   main #carouselExampleIndicators .carousel-inner .carousel-item .d-blocke {
     width: 256px;
-    height: 320px; }
+    height: 320px;
+    box-shadow: 5px -3px 13px;
+    border: 2px solid black; }
 
 footer {
   background-color: #171819;
