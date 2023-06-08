@@ -14,7 +14,8 @@ header {background-color:black;
                         box-shadow: 2px 2px 10px;
                         transition-duration: 0.5s;}
                         img:hover{
-                            width: 110px;
+                        /*- width: 110px;-*/
+                        transform: rotateY(20deg);
                         }
                     }
             }}

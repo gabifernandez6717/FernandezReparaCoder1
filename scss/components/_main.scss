@@ -9,11 +9,45 @@ main{
     background-position: center;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100vh;    
+    background-color: #000000;
+    background-image: linear-gradient(0deg, #000000 0%, #3e3e3e 53%, #999999 100%);
+    section{
+        width: 90%;
+        padding: 20px;
+        margin: 0px auto 40px auto;
+        background-color: #cccaca57;
+        border-radius: 5px;
+        .mb-3 {
+            .form-label{
+                color: white;
+            }
+            input{
+            border: 1.8px solid black
+            }
+            textarea{
+            border: 1.8px solid black
+            }
+            .botones{
+                
+                padding: 0px 5px 0px 5px;
+                transition-duration: 0.4s;
+            }
+            .botones:hover{
+                color: white;
+                background-color: blue;
+            }
+    }
+    }
     div{
+        h2{
+            margin: 25px 10px 35px 10px;
+        }
+    }
         p{
             color: white;
             text-align: center;
+            font-size: 1.3rem;
         }
         div{
         iframe {
@@ -24,7 +58,7 @@ main{
             box-shadow: 5px -3px 13px;
             border: 2px solid black;
         }
-    }
+    
     section{
         img{
         margin: 10px;
@@ -43,10 +77,12 @@ main{
             text-align: center;
             li{
                 margin: 10PX;
+                list-style: none;
             }
         }
         p{
             color: black;
+            margin: 10px;
             #contactoPrecios{
                 color: black;}
         }
@@ -57,9 +93,11 @@ main{
         margin-top: auto;
         box-shadow: 5px -3px 13px;
         border: 2px solid black;
+        margin: 20px;
         p{
             color: black;
             font-size: 20px;
+            margin: 10px;
         }
     }
     .imagenesRedes{
@@ -127,6 +165,12 @@ main{
         ;
         .focos{
             grid-area: focos;
+            h2{
+                color: black;
+                background-color: white;
+                border: 3px solid black;
+                margin: 0;
+            }
             img{
                 box-shadow: 5px -3px 13px;
                 border: 2px solid black;
@@ -134,6 +178,12 @@ main{
         }
         .lavarropas{
             grid-area: lavarropas;
+            h2{
+                color: black;
+                background-color: white;
+                border: 3px solid black;
+                margin: 0;
+            }
             img{
                 box-shadow: 5px -3px 13px;
                 border: 2px solid black;
@@ -141,29 +191,63 @@ main{
         }
         .auriculares{
             grid-area: auriculares;
+            h2{
+                color: black;
+                background-color: white;
+                border: 3px solid black;
+                margin: 0;
+            }
             img{
                 box-shadow: 5px -3px 13px;
                 border: 2px solid black;}
         }
         .xiaomi{
             grid-area: xiaomi;
+            h2{
+                color: black;
+                background-color: white;
+                border: 3px solid black;
+                margin: 0;
+            }
             img{
                 box-shadow: 5px -3px 13px;
                 border: 2px solid black;}
         }
         .samsung{
             grid-area: samsung;
+            h2{
+                color: black;
+                background-color: white;
+                border: 3px solid black;
+                margin: 0;
+            }
             img{
                 box-shadow: 5px -3px 13px;
                 border: 2px solid black;}
         }
         .lintern{
             grid-area: lintern;
+            h2{
+                color: black;
+                background-color: white;
+                border: 3px solid black;
+                margin: 0;
+            }
             img{
                 width: 280px;
                 height: 322px;
                 box-shadow: 5px -3px 13px;
                 border: 2px solid black;}
+        }
+    }
+    #carouselExampleIndicators{
+        .carousel-inner{
+            .carousel-item{
+                .d-blocke{
+                    width: 256px;
+                    height: 320px;
+                }
+            }
         }
     }
 }
