@@ -40,7 +40,6 @@ header {
       box-shadow: 2px 2px 10px;
       transition-duration: 0.5s; }
     header nav div a img:hover {
-      /*- width: 110px;-*/
       transform: rotateY(20deg); }
   header div #paginaDeInicio {
     color: black;
