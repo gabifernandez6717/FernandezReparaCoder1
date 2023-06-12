@@ -15,8 +15,6 @@
         <meta name="description" content="¡Bienvenido a Fernandez Repara! tu solución confiable y experta en reparación de celulares y electrodomésticos. Me dedico a brindar un servicio de reparación rápido, eficiente y de alta calidad. Desde la reparación de pantallas rotas hasta la solución de fallas técnicas.">
         <!---->
         <link rel="stylesheet" href="../css/estilos.css">
-            <!--css
-        <link rel="stylesheet" href="../css/styles.css">-->
         <title>Fernandez Repara | Reparación de celulares y artículos electrónicos</title>
     </head>
     <body>
@@ -31,7 +29,7 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            
+                            <a class="nav-link" href="../index.html">inicio</a>
                             <a class="nav-link" href="../pages/contacto.html">Contacto</a>
                             <a class="nav-link" href="../pages/acercademi.html">Acerca de mí</a>
                             <a class="nav-link" href="../pages/preciosfrecuentes.html">Precios frecuentes</a>
@@ -54,22 +52,23 @@
             </div>
             <!--formulario de contacto-->
             <section>
-                <div class="mb-3">
+                <form class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Nombre</label>
                     <input type="text" class="form-control" id="exampleFormControlInput1">
-                </div>
-                <div class="mb-3">
+                </form>
+                <form class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Apellido</label>
                     <input type="text" class="form-control" id="exampleFormControlInput1">
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Teléfono</label>
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="(Opcional)">
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Teléfono</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="(Opcional)">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                        <div id="emailHelp" class="form-text">Nunca compartiré su correo electrónico con nadie más.</div>
                 </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
-                    <div id="emailHelp" class="form-text">Nunca compartiré su correo electrónico con nadie más.</div>
-                </div>
+                </form>
                 <div>
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Depositá y categorizá tu duda</label>
@@ -77,18 +76,16 @@
                         <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
                         <option value="1">Reparación de celulares</option>
                         <option value="2">Reparación de otros productos</option>
-                        <option value="3">Otro motivo</option>
-                        </select>
+                        <option value="3">Otro motivo</option></select>
                         <input class="botones" type="submit" value="Enviar duda">
                     </div>
-                    <label for="floatingTextarea2">¿Tenés alguna disconformidad o sugerencia? ¡te invito a que me lo hagas saber!</label>
+                    <label for="floatingTextarea2">¿Tenés alguna disconformidad o sugerencia? ¡Te invito a que me lo hagas saber!</label>
                     <textarea class="form-control" placeholder="Escribí un comentario" id="floatingTextarea2" style="height: 100px"></textarea>
                     <input class="botones" type="submit" value="Enviar comentario">
                 </div>
             </section>
         </main>
         <footer>
-                
             <div>
                 <a href="https://www.instagram.com/fernandezrepara_/"><img src="../img/instagram-png.png" alt="perfil de Facebook de Fernandez Repara"></a>
                 <a href="https://www.facebook.com/profile.php?id=100070295746449"><img src="../img/facebook.png" alt="perfil de Facebook de Fernandez Repara"></a>

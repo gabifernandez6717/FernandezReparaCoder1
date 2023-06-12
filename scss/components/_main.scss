@@ -11,7 +11,7 @@ main{
     flex-direction: column;
     min-height: 100vh;    
     background-color: #000000;
-    background-image: linear-gradient(0deg, #000000 0%, #3e3e3e 53%, #999999 100%);
+    background-image: linear-gradient(0deg, #2f2f2f 0%, #3e3e3e 53%, #999999 100%);
     section{
         width: 90%;
         padding: 20px;
@@ -22,126 +22,84 @@ main{
         border: 2px solid black;
         .mb-3 {
             .form-label{
-                color: white;
-            }
+                color: white;}
             input{
-            border: 1.8px solid black
-            }
+            border: 1.8px solid black}
             textarea{
-            border: 1.8px solid black
-            }
+            border: 1.8px solid black}
             .botones{
-                
                 padding: 0px 5px 0px 5px;
-                transition-duration: 0.4s;
-            }
+                transition-duration: 0.4s;}
             .botones:hover{
                 color: white;
-                background-color: blue;
-            }
-    }
-    }
+                background-color: blue;}}}
     div{
         h2{
-            margin: 25px 10px 35px 10px;
-        }
-    }
+            margin: 25px 10px 35px 10px;}}
         p{
             color: white;
             text-align: center;
             font-size: 1.3rem;
-        }
+            box-shadow: 5px 10px 13px black;}
         div{
         iframe {
         box-shadow: 5px -3px 13px;
-        border: 2px solid black;
-        }}
+        border: 2px solid black;}}
         .diploma{
             box-shadow: 5px -3px 13px;
-            border: 2px solid black;
-        }
+            border: 2px solid black;}
     
     section{
         img{
-        margin: 10px;
-        }
-    }
+        margin: 10px;}}
     .algunasReparaciones{
-        background-color: lightgray;
         color: black;
         margin: 20px;
         font-size: 20px;
         text-align: center;
-        box-shadow: 5px -3px 13px;
-        border: 2px solid black;
         ul{
             width: 100%;
             text-align: center;
             li{
+                color: white;
                 margin: 10PX;
                 list-style: none;
-            }
-        }
+                box-shadow: 5px 2px 13px black;}}
         p{
-            color: black;
+            color: white;
             margin: 10px;
             #contactoPrecios{
-                color: black;}
-        }
-    }
+                color: black;}}}
     .redes{
-        background-color:lightgray ;
         display: inline-block;
         margin-top: auto;
-        box-shadow: 5px -3px 13px;
-        border: 2px solid black;
         margin: 20px;
         p{
-            color: black;
+            color: white;
             font-size: 20px;
             margin: 10px;
-        }
-    }
+            box-shadow: 5px 2px 13px black;}}
     .imagenesRedes{
         a{
             .imgFacebook{
                 border: 3px solid black;
                 width: 150px;
                 border-radius: 15px;
-                transition-duration: 0.5s;
-            }
+                transition-duration: 0.5s;}
             .imgFacebook:hover{
                 width: 175px;
-                height: 175px;
-            }
+                height: 175px;}
             img{
                 width: 150px;
                 border-radius: 15px;
-                transition-duration: 0.5s;
-            }
+                transition-duration: 0.5s;}
             img:hover{
                 width: 180px;
-                height: 180px;
-            }
-        }
-    }
+                height: 180px;}}}
     #contactoPrecios{
-        color: black;
-    }
-    .redes{
-    background-color:lightgray ;
-    display: inline-block;
-    margin-top: auto;
-    box-shadow: 5px -3px 13px;
-    border: 2px solid black;
-        p{
-            color: black;
-            font-size: 20px;
-        }
-    }
+        color: black;}
     .precios{
-    color: white;
-    }
+    color: white;}
     .tablaPrecios{
         margin: 40px 40px 40px 0px;
         text-align: center;
@@ -149,14 +107,11 @@ main{
         color: white;
         tr{
             td{
-                border: 1px solid black;
-            }
+                border: 1px solid black;}
             th{
                 color: black;
                 background-color: white;
-                border: 3px solid black;}
-        }
-    }
+                border: 3px solid black;}}}
     .imgsIndex{
         display: grid;
         grid-template-columns: repeat (1fr 1fr 1fr);
@@ -170,78 +125,58 @@ main{
             h2{
                 color: black;
                 background-color: white;
-                border: 3px solid black;
                 margin: 0;
             }
             img{
-                box-shadow: 5px -3px 13px;
-                border: 2px solid black;
-            }
-        }
+                box-shadow: 5px 0px 13px;
+                border: 2px solid black;}}
         .lavarropas{
             grid-area: lavarropas;
             h2{
                 color: black;
                 background-color: white;
-                border: 3px solid black;
-                margin: 0;
-            }
+                margin: 0;}
             img{
-                box-shadow: 5px -3px 13px;
-                border: 2px solid black;
-            }
-        }
+                box-shadow: 5px 0px 13px;
+                border: 2px solid black;}}
         .auriculares{
             grid-area: auriculares;
             h2{
                 color: black;
                 background-color: white;
-                border: 3px solid black;
-                margin: 0;
-            }
+                margin: 0;}
             img{
-                box-shadow: 5px -3px 13px;
-                border: 2px solid black;}
-        }
+                box-shadow: 5px 0px 13px;
+                border: 2px solid black;}}
         .xiaomi{
             grid-area: xiaomi;
             h2{
                 color: black;
                 background-color: white;
-                border: 3px solid black;
-                margin: 0;
-            }
+                margin: 0;}
             img{
-                box-shadow: 5px -3px 13px;
-                border: 2px solid black;}
-        }
+                box-shadow: 5px 0px 13px;
+                border: 2px solid black;}}
         .samsung{
             grid-area: samsung;
             h2{
                 color: black;
                 background-color: white;
-                border: 3px solid black;
-                margin: 0;
-            }
+                margin: 0;}
             img{
-                box-shadow: 5px -3px 13px;
-                border: 2px solid black;}
-        }
+                box-shadow: 5px 0px 13px;
+                border: 2px solid black;}}
         .lintern{
             grid-area: lintern;
             h2{
                 color: black;
                 background-color: white;
-                border: 3px solid black;
-                margin: 0;
-            }
+                margin: 0;}
             img{
                 width: 280px;
                 height: 322px;
-                box-shadow: 5px -3px 13px;
-                border: 2px solid black;}
-        }
-    }
+                box-shadow: 5px 0px 13px;
+                border: 2px solid black;}}}
     #carouselExampleIndicators{
         .carousel-inner{
             .carousel-item{
@@ -249,9 +184,4 @@ main{
                     width: 256px;
                     height: 320px;
                     box-shadow: 5px -3px 13px;
-                    border: 2px solid black;
-                }
-            }
-        }
-    }
-}
+                    border: 2px solid black;}}}}}
