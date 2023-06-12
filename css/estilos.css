@@ -70,16 +70,19 @@ main {
     border-radius: 5px;
     box-shadow: 5px -3px 13px;
     border: 2px solid black; }
-    main section .mb-3 .form-label {
+    main section div .mb-3 .form-label {
       color: white; }
-    main section .mb-3 input {
+    main section div .mb-3 input {
       border: 1.8px solid black; }
-    main section .mb-3 textarea {
+    main section div .mb-3 textarea {
       border: 1.8px solid black; }
-    main section .mb-3 .botones {
+    main section div .mb-3 .botones {
       padding: 0px 5px 0px 5px;
       transition-duration: 0.4s; }
-    main section .mb-3 .botones:hover {
+    main section div .mb-3 .botones:hover {
+      color: white;
+      background-color: blue; }
+    main section .botones .botones:hover {
       color: white;
       background-color: blue; }
   main div h2 {

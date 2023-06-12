@@ -20,19 +20,24 @@ main{
         border-radius: 5px;
         box-shadow: 5px -3px 13px;
         border: 2px solid black;
-        .mb-3 {
-            .form-label{
-                color: white;}
-            input{
-            border: 1.8px solid black}
-            textarea{
-            border: 1.8px solid black}
+        div{
+            .mb-3 {
+                .form-label{
+                    color: white;}
+                input{
+                border: 1.8px solid black}
+                textarea{
+                border: 1.8px solid black}
+                .botones{
+                    padding: 0px 5px 0px 5px;
+                    transition-duration: 0.4s;}
+                .botones:hover{
+                    color: white;
+                    background-color: blue;}}}
             .botones{
-                padding: 0px 5px 0px 5px;
-                transition-duration: 0.4s;}
-            .botones:hover{
-                color: white;
-                background-color: blue;}}}
+                .botones:hover{
+                    color: white;
+                    background-color: blue;}}}
     div{
         h2{
             margin: 25px 10px 35px 10px;}}
